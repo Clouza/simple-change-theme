@@ -1,0 +1,59 @@
+body {
+    background-color: var(--background);
+    color: var(--primary);
+    /* margin: 5em; */
+}
+
+/* nav */
+nav {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid var(--secondary);
+    color: var(--foreground1);
+    background-color: var(--primary);
+    user-select: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+}
+
+/* card */
+.container-card {
+    /* masonry effect */
+    columns: 1;
+}
+
+.card {
+    /* masonry layout */
+    break-inside: avoid;
+
+    /* style card */
+    margin: 0 0.5em 1em;
+    padding: 1em 0.5em;
+    /* border-radius: 6px; */
+    background-color: var(--foreground1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    /* border: 1px solid var(--secondary); */
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card button {
+    color: var(--background);
+    background-color: var(--secondary);
+    border: none;
+    margin: 0.5em 0;
+    padding: 1em 1em;
+    transition-duration: 0.5s;
+}
+
+.card button:hover {
+    background-color: var(--primary);
+    transition-duration: 0.5s;
+}
+
+::selection {
+    background-color: var(--background);
+}
