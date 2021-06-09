@@ -11,5 +11,7 @@ You can download this file with [zip](https://github.com/Clouza/simple-change-th
 Native language
 
 ## Other Things
-If you want to contribute, you can fork this repository. <br/>
-Theme 2 will update next time (╯▽╰ )
+- If you want to contribute, you can fork this repository. <br/>
+- Theme 2 will update next time (╯▽╰ )
+
+In this file ```config.css``` you can change the default colors, reset css, footer or anything you want
